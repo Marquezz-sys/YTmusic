@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link para Playlist</title>
+    <style>
+        /* Estilização do corpo para centralizar o botão */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #0f0f0f; /* Fundo escuro estilo YT Music */
+            font-family: 'Roboto', sans-serif;
+        }
+
+        /* Estilo do Link/Botão */
+        .music-link {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #ff0000; /* Vermelho vibrante */
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 50px; /* Bordas arredondadas */
+            font-weight: bold;
+            font-size: 16px;
+            transition: transform 0.2s, background-color 0.3s;
+            box-shadow: 0 4px 15px rgba(255, 0, 0, 0.3);
+        }
+
+        /* Efeito ao passar o mouse */
+        .music-link:hover {
+            background-color: #cc0000;
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(255, 0, 0, 0.5);
+        }
+
+        /* Efeito ao clicar */
+        .music-link:active {
+            transform: scale(0.98);
+        }
+    </style>
+</head>
+<body>
+
+    <a href="https://music.youtube.com/playlist?list=PLYVJdHX9yEf6uATMCrnouclozgIjh0QhA" 
+       target="_blank" 
+       class="music-link">
+       Ouvir Playlist no YT Music
+    </a>
+
+</body>
+</html>
